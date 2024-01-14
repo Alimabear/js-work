@@ -3,12 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Button Example</title>
+    
 </head>
 <body>
-    <h1>this is COMMIT </h1>
-    
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum maxime porro, tenetur architecto 
-        natus sed recusandae obcaecati libero iusto voluptas ratione cumque fuga. Expedita assumenda ratione non quasi error. Repellat.</p>
+
+<form id="myForm">
+    <button type="button" onclick="button1Click()">Button 1</button>
+    <button type="button" onclick="button2Click()">Button 2</button>
+</form>
+
+<script>
+    function button1Click() {
+        let int1 = 120;
+        let int2 = 100;
+        sum = int1 + int2;
+        alert("sum is generated as" +sum);
+        
+    }
+
+    function button2Click() {
+        let no1 = 100;
+        let no2 = 200;
+        sum = no1 + no2;
+        alert("second sum is generated as" +sum);
+        
+    }
+</script>
+
 </body>
 </html>
