@@ -1,4 +1,48 @@
 
+
+function addNumbers(){
+    var int1 = document.getElementById("num1");
+    var int2 = document.getElementById("num2");
+
+    var sum = int1 + int2;
+
+}
+ console.log(document.getElementById("result") +sum);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // user input
 
 // function add() {

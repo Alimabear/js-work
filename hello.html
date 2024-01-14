@@ -18,46 +18,17 @@
 
     <p id="result">Result: </p>
 
-    <script src="script.js"></script>
+    <script > function addNumbers() {
+    // Get the values from the input fields
+    var num1 = document.getElementById('num1').value;
+    var num2 = document.getElementById('num2').value;
+
+    // Convert values to numbers and perform addition
+    var result = parseFloat(num1) + parseFloat(num2);
+
+    // Display the result
+    document.getElementById('result').innerHTML = 'Result: ' + result;
+}
+</script>
 </body>
 </html>
-
-
-
-
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Button Example</title>
-    
-</head>
-<body>
-
-<form id="myForm">
-    <button type="button" onclick="button1Click()">Button 1</button>
-    <button type="button" onclick="button2Click()">Button 2</button>
-</form>
-
-<script>
-    function button1Click() {
-        let int1 = 120;
-        let int2 = 100;
-        sum = int1 + int2;
-        alert("sum is generated as" +sum);
-        
-    }
-
-    function button2Click() {
-        let no1 = 100;
-        let no2 = 200;
-        sum = no1 + no2;
-        alert("second sum is generated as" +sum);
-        
-    }
-</script>
-
-</body>
-</html> -->
